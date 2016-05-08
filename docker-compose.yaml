@@ -1,0 +1,6 @@
+docker-php-big-request-bug-phusion-php7:
+  build: .
+  dockerfile: ./phusion-php7/Dockerfile
+  env_file: ./phusion-php7/.env
+  ports:
+    - "8000:80"
